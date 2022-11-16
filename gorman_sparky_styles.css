@@ -49,15 +49,15 @@ nav {
     background-color: #ffc627;
 }
 
-nav ul {
+.nav ul {
     padding-left: 0;
 }
 
-nav li {
+.nav li {
     list-style-type: none;
 }
 
-nav link {
+.nav link {
     display: block;
     background-color: #8c1d40;
     color: #fff;
@@ -72,7 +72,7 @@ nav link {
     font-size: 20px;
 }
 
-nav link:hover {
+.nav link:hover {
     background-color: #fff;
     color: #8c1d40;
 }
@@ -82,12 +82,12 @@ main {
     padding: 24px;
 }
 
-main link {
+.main link {
     background-color: #8c1d40;
     font-weight: bold;
 }
 
-main link:hover {
+.main link:hover {
     background-color: #fff;
     color: #8c1d40;
     padding: 4px;
@@ -120,7 +120,7 @@ address::content {
     font-size: 16px;
 }
 
-footer link {
+.footer link {
     color: #fff;
     display: inline-block;
     padding-top: 8px;
@@ -129,6 +129,6 @@ footer link {
     padding-right: 8px;
     font-weight: normal;
 }
-footer link:hover {
+.footer link:hover {
     color: #ffc627;
 }
